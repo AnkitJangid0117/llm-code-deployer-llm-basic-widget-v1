@@ -34,11 +34,13 @@
 </style>
 </head>
 <body>
-<h1>Hello, Project!</h1>
+<h1>Welcome Back!</h1>
 <button id="clickButton">Click Me</button>
 <script>
-  document.getElementById('clickButton').addEventListener('click', () => {
-    console.log('Button clicked');
+  const button = document.getElementById('clickButton');
+  button.addEventListener('click', () => {
+    button.textContent = 'Clicked!';
+    console.log('Button was clicked');
   });
 </script>
 </body>
