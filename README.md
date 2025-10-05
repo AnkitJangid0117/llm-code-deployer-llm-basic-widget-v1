@@ -3,9 +3,11 @@
 A minimal web project that displays a greeting and a clickable button.
 
 ## Features
-- Displays "Hello, Project!"
+- Displays "Welcome Back!"
 - Contains a button labeled "Click Me"
-- Logs "Button clicked" in the console upon clicking
+- When the button is pressed:
+  - The button text changes to "Clicked!"
+  - Logs "Button was clicked" in the console
 
 ## Usage
 Open `index.html` in your web browser to view the page.
